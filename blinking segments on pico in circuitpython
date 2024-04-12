@@ -1,0 +1,112 @@
+"""Segment-blink"""
+import time
+import board
+import digitalio
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+
+segment1 = digitalio.DigitalInOut(board.GP18)
+segment1.direction = digitalio.Direction.OUTPUT
+
+segment2 = digitalio.DigitalInOut(board.GP17)
+segment2.direction = digitalio.Direction.OUTPUT
+
+segment3 = digitalio.DigitalInOut(board.GP16)
+segment3.direction = digitalio.Direction.OUTPUT
+
+segment4 = digitalio.DigitalInOut(board.GP15)
+segment4.direction = digitalio.Direction.OUTPUT
+
+segment5 = digitalio.DigitalInOut(board.GP14)
+segment5.direction = digitalio.Direction.OUTPUT
+
+segment6 = digitalio.DigitalInOut(board.GP13)
+segment6.direction = digitalio.Direction.OUTPUT
+
+segment7 = digitalio.DigitalInOut(board.GP12)
+segment7.direction = digitalio.Direction.OUTPUT
+
+segment8 = digitalio.DigitalInOut(board.GP11)
+segment8.direction = digitalio.Direction.OUTPUT
+
+segment9 = digitalio.DigitalInOut(board.GP10)
+segment9.direction = digitalio.Direction.OUTPUT
+
+segment10 = digitalio.DigitalInOut(board.GP9)
+segment10.direction = digitalio.Direction.OUTPUT
+
+segment11 = digitalio.DigitalInOut(board.GP8)
+segment11.direction = digitalio.Direction.OUTPUT
+
+segment12 = digitalio.DigitalInOut(board.GP7)
+segment12.direction = digitalio.Direction.OUTPUT
+
+segment13 = digitalio.DigitalInOut(board.GP6)
+segment13.direction = digitalio.Direction.OUTPUT
+
+segment14 = digitalio.DigitalInOut(board.GP5)
+segment14.direction = digitalio.Direction.OUTPUT
+
+segment15 = digitalio.DigitalInOut(board.GP4)
+segment15.direction = digitalio.Direction.OUTPUT
+
+segment16 = digitalio.DigitalInOut(board.GP3)
+segment16.direction = digitalio.Direction.OUTPUT
+
+segment17 = digitalio.DigitalInOut(board.GP2)
+segment17.direction = digitalio.Direction.OUTPUT
+
+segment18 = digitalio.DigitalInOut(board.GP1)
+segment18.direction = digitalio.Direction.OUTPUT
+
+segment19 = digitalio.DigitalInOut(board.GP0)
+segment19.direction = digitalio.Direction.OUTPUT
+
+segment20 = digitalio.DigitalInOut(board.GP26)
+segment20.direction = digitalio.Direction.OUTPUT
+
+segment21 = digitalio.DigitalInOut(board.GP21)
+segment21.direction = digitalio.Direction.OUTPUT
+
+segment22 = digitalio.DigitalInOut(board.GP27)
+segment22.direction = digitalio.Direction.OUTPUT
+
+
+while True:
+    led.value = True
+    time.sleep(0.2)
+    led.value = False
+    time.sleep(0.1)
+    segment1.value = True
+    time.sleep(0.2)
+    segment1.value = False
+    time.sleep(0.1)
+    segment2.value = True
+    time.sleep(0.2)
+    segment2.value = False
+    time.sleep(0.1)
+    segment3.value = True
+    time.sleep(0.2)
+    segment3.value = False
+    time.sleep(0.1)
+    segment4.value = True
+    time.sleep(0.2)
+    segment4.value = False
+    time.sleep(0.1)
+    segment5.value = True
+    time.sleep(0.2)
+    segment5.value = False
+    time.sleep(0.1)
+    segment6.value = True
+    time.sleep(0.2)
+    segment6.value = False
+    time.sleep(0.1)
+    segment7.value = True
+    time.sleep(0.2)
+    segment7.value = False
+    time.sleep(0.1)
+    segment8.value = True
+    time.sleep(0.2)
+    segment8.value = False
+    time.sleep(0.1)
