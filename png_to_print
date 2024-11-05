@@ -1,0 +1,12 @@
+bilde="Friends1.png";
+intersection(){
+surface(file = bilde, center = false, invert = false);
+    
+    cube([1000,1000,2],center=false);
+}
+translate([0,0,-92])
+intersection(){
+    translate([0,0,94])
+    cube([1000,1000,6],center=false);
+    surface(file = bilde, center = false, invert = false);
+}
