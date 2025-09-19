@@ -1,0 +1,13 @@
+På elektroavdelingen ved Hadsel VGS avdeling Melbu har vi forsøkt lavbudsjetts kretskortetsing i 4-5 år.
+Med blandede resultater. Her er alle ting som må være tilstede og fungere for at det skal gå bra.
+
+Vi bruker kobberplater med foto-sensitiv lakk. Den typen med blått klistermerke og tynt kobber-lag er nødvendig for å få fine detaljer.
+Vi kutter ikke kortet på forhånd, men forbereder en krets eller kretser som passer akkurat på kortet. Vi bruker Kicad sammmen med OpenScad for å få speilvendte kretser med eventuelle navnelapper. Vi printer bildet fra Word, hvor grafikken importeres som .svg-fil. Da får vi ikke skaleringsproblemer.
+
+Grafikken skrives ut på gammeldags overhead-plastark og klippes sirlig helt inn til kanten. Her lønner det seg å grovklippe først, ca en cm fra det vi skal ha. Eventuelt kan vi klippe en ekstra gang til ca 3 mm fra målkanten, og så det endelige utsnittet. Dette er for at ikke selve kretsbildet skal bøyes mer en absolutt nødvendig under klipping slik at vi får god belysning.
+
+Nøyaktig klippet legges kortet og plastark i en skreddersydd skuffe for belysning. Sjekk at begge passer i skuffa før klistermerket fjernes.
+Vi belyser i hjemmelagd UV-belyser med 45 sekunder. Helst helt uten bevegelse underveis.
+
+Så går det i fremkallerbadet.
+Vi bruker bungard-resist fremkallerpulver hvor en halv teskje tilsettes en så liten mengde vann vi kan bruke, vanligvis opp til nederste strek på en isteflaske. Fremkalleren blandes ved at flasken ristes med korken på.
